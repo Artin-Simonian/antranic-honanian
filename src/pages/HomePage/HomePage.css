@@ -1,0 +1,27 @@
+
+
+.about-me {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.about-me img {
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.about-me h1 {
+  font-size: 30px;
+}
+
+
+
+.btn-links button{
+  margin: 5px;
+}
+
