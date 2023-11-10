@@ -6,10 +6,7 @@ import Projects from "./pages/Projects/Projects";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/Projects" component={Projects} />
-      </Router>
+     <HomePage />
     </div>
   );
 }
