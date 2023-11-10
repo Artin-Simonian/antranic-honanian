@@ -1,13 +1,17 @@
-import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
-import Projects from "./pages/Projects/Projects";
+// App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage/HomePage';
+import Projects from './pages/Projects/Projects';
 
 function App() {
   return (
-    <div className="App">
-     <HomePage />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,5 +1,5 @@
 
-
+@import "~bootstrap/dist/css/bootstrap.min.css";
 .about-me {
   text-align: center;
   display: flex;
