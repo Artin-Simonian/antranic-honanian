@@ -9,6 +9,10 @@ export default function HomePage() {
     navigate('/projects');
   };
 
+  const handleLinksClick = () => {
+    navigate('/links');
+  };
+
   return (
     <>
       <div className="about-me">
@@ -20,6 +24,7 @@ export default function HomePage() {
         </h1>
         <div className="btn-links">
           <Button variant="primary" onClick={handleProjectsClick}>Projects</Button>
+          <Button variant="primary" onClick={handleLinksClick}>My Links</Button>
         </div>
       </div>
     </>
