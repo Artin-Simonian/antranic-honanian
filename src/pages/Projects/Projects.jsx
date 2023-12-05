@@ -16,7 +16,6 @@ export default function Projects() {
         <Button className="back-button" onClick={handleHomeClick}>
           Home
         </Button>
-        <h1>Projects</h1>
       </div>
       <div className="Projects">
         <div className="projects-list">
