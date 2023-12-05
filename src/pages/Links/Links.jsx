@@ -13,7 +13,7 @@ export default function Links() {
     <div className="project-heading">
 
       <Button className="back-button" onClick={handleHomeClick}>
-        🢀
+        Home
       </Button>
     </div>
       <div>
