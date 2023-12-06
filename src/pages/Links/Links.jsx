@@ -16,6 +16,7 @@ export default function Links() {
         </Button>
       </div>
       <div className="links">
+        <p>Keep in touch with me!</p>
         <a
           href="https://www.linkedin.com/in/antranic-honanian-334612253/"
           target="_blank"
@@ -48,10 +49,10 @@ export default function Links() {
         </a>
         <br />
         <a href="tel:+3233778370">
-          <img src="https://i.imgur.com/GkdemYW.png"/>
+          <img src="https://i.imgur.com/GkdemYW.png" />
         </a>
         <br />
-        
+        <p>Los Angeles, Ca</p>
       </div>
     </>
   );
