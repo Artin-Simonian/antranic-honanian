@@ -51,9 +51,7 @@ export default function Links() {
           <img src="https://i.imgur.com/GkdemYW.png"/>
         </a>
         <br />
-        <a href="../../../resume/Antranic.pdf" download>
-          <img src="https://i.imgur.com/ktDPsTE.png"/>
-        </a>
+        
       </div>
     </>
   );
