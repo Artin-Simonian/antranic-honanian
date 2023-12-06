@@ -36,3 +36,8 @@ h1 {
     text-decoration: none;
     color: #000;
 }
+
+.links{
+  background: red;
+  text-align: center;
+}
