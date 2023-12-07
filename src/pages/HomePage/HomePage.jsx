@@ -23,8 +23,8 @@ export default function HomePage() {
           with a <br /> strong enthusiasm for software and game development
         </h1>
         <div className="btn-links">
-          <Button variant="primary" onClick={handleProjectsClick}>Projects</Button>
-          <Button variant="primary" onClick={handleLinksClick}>My Links</Button>
+          <Button className="home-btn" variant="primary" onClick={handleProjectsClick}>Projects</Button>
+          <Button className="home-btn"  variant="primary" onClick={handleLinksClick}>My Links</Button>
         </div>
       </div>
     </>

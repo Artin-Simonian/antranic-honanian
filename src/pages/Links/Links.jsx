@@ -11,7 +11,7 @@ export default function Links() {
   return (
     <>
       <div className="project-heading">
-        <Button className="back-button" onClick={handleHomeClick}>
+        <Button className="back-button home-btn" onClick={handleHomeClick}>
           Home
         </Button>
       </div>
