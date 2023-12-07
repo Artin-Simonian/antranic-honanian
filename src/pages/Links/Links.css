@@ -1,20 +1,40 @@
-.links{
+.links {
   text-align: center;
-  height: 200px;
+
 }
 
-.links-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 70vh;
-    background-color: #0275d8;;
-    width: 30%;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 20%;
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #0275d8;
+  width: 30%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20%;
 }
 
-.links .link{
-    margin: 30px 0;
+.links .link {
+  margin: 30px 0;
+}
+
+.linkedIn-list {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+.linkedIn-list p {
+  font-size: 20px;
+}
+
+.linkedIn-list img {
+  height: 100px;
+}
+
+.link {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 20%;
 }
